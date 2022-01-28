@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "24414298199",
+    "firebase_url": "https://enot-f88ee-default-rtdb.firebaseio.com",
+    "project_id": "enot-f88ee",
+    "storage_bucket": "enot-f88ee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:24414298199:android:fe4ecc0416c522ec0d0312",
+        "android_client_info": {
+          "package_name": "com.example.enot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "24414298199-504fo5t4mqh2c3rbsui94cre5cnv6dme.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAm-nArK0I__075a6wMSt2XLqAG7RloYbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "24414298199-504fo5t4mqh2c3rbsui94cre5cnv6dme.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

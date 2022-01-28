@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C9BEE6"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/logOutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="log out"
+        android:layout_gravity="right"
+        android:backgroundTint="#C3FF9EFD"
+        android:layout_margin="10dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/profileImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/artworks_000039099950_dq7vot_t500x500"/>
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/changePhoto"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Change profile photo"
+            android:backgroundTint="#C3FF9EFD"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/emailProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="email@gmail.com"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="8dp"
+        android:textSize="15dp"/>
+
+</FrameLayout>

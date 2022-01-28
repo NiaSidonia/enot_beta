@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.RegistrationActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#E9B29DEA">
+
+    <EditText
+        android:id="@+id/identityRegister"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginHorizontal="30dp"
+        android:background="#E9B29DEA"
+        android:gravity="center"
+        android:hint="Full Name"/>
+
+    <EditText
+        android:id="@+id/emailRegister"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="8dp"
+        android:background="#E9B29DEA"
+        android:gravity="center"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/passwordRegister"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="8dp"
+        android:background="#E9B29DEA"
+        android:gravity="center"
+        android:hint="Password"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/repeatPassword"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginHorizontal="30dp"
+        android:background="#E9B29DEA"
+        android:gravity="center"
+        android:hint="Repeat Password"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/registrationButton"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Register"
+        android:textSize="15dp"
+        android:backgroundTint="#C3FF9EFD"
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>

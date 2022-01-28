@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C9BEE6"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:scaleX="2.3"
+        android:scaleY="2.3"
+        android:layout_marginRight="100dp"
+        app:srcCompat="@drawable/_72341582_651705839422589_2245287641864548982_n" />
+
+    <EditText
+        android:id="@+id/loginEmail"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginHorizontal="30dp"
+        android:background="#E9B29DEA"
+        android:gravity="center"
+        android:hint="E-mail"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginBottom="8dp"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/loginPassword"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginHorizontal="30dp"
+        android:background="#E9B29DEA"
+        android:gravity="center"
+        android:hint="Password"
+        android:inputType="textPassword"/>
+
+
+    <Button
+        android:id="@+id/logInButton"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Sign in"
+        android:textSize="15dp"
+        android:backgroundTint="#C3FF9EFD"
+        android:layout_marginTop="25dp"/>
+
+    <Button
+        android:id="@+id/registrationButton"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Register"
+        android:textSize="15dp"
+        android:backgroundTint="#C3FF9EFD"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/recoverButton"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Recover"
+        android:textSize="15dp"
+        android:backgroundTint="#C3FF9EFD"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="50dp"/>
+
+</LinearLayout>

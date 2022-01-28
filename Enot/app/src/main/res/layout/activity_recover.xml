@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.RecoverActivity"
+    android:gravity="center"
+    android:background="#E9B29DEA"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/emailRecover"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="8dp"
+        android:background="#E9B29DEA"
+        android:gravity="center"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"/>
+
+    <Button
+        android:id="@+id/recoverButton"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Register"
+        android:textSize="15dp"
+        android:backgroundTint="#C3FF9EFD"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
